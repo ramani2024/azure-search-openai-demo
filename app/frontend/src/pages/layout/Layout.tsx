@@ -20,7 +20,7 @@ const Layout = () => {
                         <ul className={styles.headerNavList}>
                             <li>
                                 <NavLink to="/" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
-                                    Scout Chat
+                                    Scout Talk
                                 </NavLink>
                             </li>
                             <li className={styles.headerNavLeftMargin}>
@@ -42,7 +42,7 @@ const Layout = () => {
                             </li>
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>Azure OpenAI + AI Search</h4>
+                    <h4 className={styles.headerRightText}>Boy Scouts of America</h4>
                     {useLogin && <LoginButton />}
                 </div>
             </header>
